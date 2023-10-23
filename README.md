@@ -22,3 +22,5 @@ NOTE: If a user needs local (password) login to dokuWiki, comment out the line:
 $conf['plugin']['oauth']['singleService'] = 1;
 ```
 
+/var/www/obs-web.rs.umbc.edu/lib/tpl/bootstrap3/tpl/footer.php -> /usr/obs/git/obs-web/lib/tpl/bootstrap3/tpl/footer.php
+This footer.php removes the dokuWiki logo and also adds Gabriel's secret cat thingy :)
