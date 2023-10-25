@@ -11,7 +11,6 @@ if(!file_exists($filePath)){
 $template = "======" . $fileName . file_get_contents('/usr/obs/blog-template.txt');
 
 if ($file) {
-	$content = "This is the content of the file.";
        	fwrite($file, $template);
        	fclose($file);
 }

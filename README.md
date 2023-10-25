@@ -32,9 +32,11 @@ This sets the behavior of the top navigaton bar.
 SymLink of entire tpl directory to provide relative linking to php files
 
 
-/usr/obs/git/obs-web/root/bin/blog
+/bin/blog -> /usr/obs/git/obs-web/root/bin/blog (root = /)
 Added blog creating script
 
-/usr/obs/git/obs-web/root/bin/blog_service.sh
+/bin/blog_service.sh -> /usr/obs/git/obs-web/root/bin/blog_service.sh (root = /)
 Added bash script to monitor blog directory
 
+/var/www/obs-web.rs.umbc.edu/lib/tpl/bootstrap3/main.php -> /usr/obs/git/obs-web/lib/tpl/bootstrap3/main.php
+Changed main.php to enable table of contents only for wiki posts.
