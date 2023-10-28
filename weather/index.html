@@ -1,0 +1,62 @@
+<html>
+<head>
+    <title>Weather Forecasts</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #0b2c87;
+            margin: 0;
+            padding: 20px;
+        }
+        h1 {
+            color: #ffffff;
+        }
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 20px;
+        }
+        .weather-card {
+            margin: 20px;
+            padding: 10px;
+            border: 5px solid rgba(55, 55, 255, 0.5);
+            border-radius: 5px;
+            width: 821px;
+            background-color: #ffffff;
+        }
+        .weather-card img {
+            width: 100%;
+            border-radius: 5px;
+        }
+
+        p {
+            margin-top: 7px;
+            color: #000000;
+        }
+    </style>
+</head>
+<body>
+    <h1>Weather Forecasts</h1>
+    <div class="container">
+        <div class="weather-card">
+            <img src="http://www.cleardarksky.com/c/UMBCObMDcsk.gif" alt="ClearDarkSky">
+            <p>ClearDarkSky</p>
+        </div>
+        <div class="weather-card">
+            <img src="https://forecast.weather.gov/meteograms/Plotter.php?lat=39.2906&lon=-76.6093&wfo=LWX&zcode=MDZ011&gset=18&gdiff=3&unit=0&tinfo=EY5&ahour=0&pcmd=11101111110000000000000000000000000000000000000000000000000&" alt="NOAA">
+            <p>NOAA</p>
+        </div>
+        <div class="weather-card">
+            <img src="https://via.placeholder.com/600x600" alt="Weather Forecast Image 3">
+            <p>Source 3</p>
+        </div>
+        <div class="weather-card">
+            <img src="https://via.placeholder.com/600x600" alt="Weather Forecast Image 4">
+            <p>Source 4</p>
+        </div>
+    </div>
+</body>
+</html>
+

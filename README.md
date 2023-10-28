@@ -40,3 +40,6 @@ Added bash script to monitor blog directory
 
 /var/www/obs-web.rs.umbc.edu/lib/tpl/bootstrap3/main.php -> /usr/obs/git/obs-web/lib/tpl/bootstrap3/main.php
 Changed main.php to enable table of contents only for wiki posts.
+
+/var/www/obs-web.rs.umbc.edu/weather -> /usr/obs/git/obs-web/weather
+Added weather directory for weather forecast page
